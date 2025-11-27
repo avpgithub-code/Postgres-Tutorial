@@ -1,6 +1,7 @@
 # Import necessary components from our models file
 # from models import User, create_database_tables, get_db_session
-from model_postgresql import User, create_database_tables, get_db_session
+# from model_postgresql import User, create_database_tables, get_db_session
+from model_mysql import User, create_database_tables, get_db_session
 
 def add_user_if_not_exists(email, name, fullname):
     # Use the 'get_db_session' function from models.py to create a new session instance
